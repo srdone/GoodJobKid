@@ -8,13 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		E3A5A0671EBE64AD00CFA6DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A5A0661EBE64AD00CFA6DD /* AppDelegate.swift */; };
-		E3A5A0691EBE64AD00CFA6DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A5A0681EBE64AD00CFA6DD /* ViewController.swift */; };
 		E3A5A06C1EBE64AD00CFA6DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3A5A06A1EBE64AD00CFA6DD /* Main.storyboard */; };
 		E3A5A06F1EBE64AD00CFA6DD /* GoodJobKid.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E3A5A06D1EBE64AD00CFA6DD /* GoodJobKid.xcdatamodeld */; };
 		E3A5A0711EBE64AD00CFA6DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3A5A0701EBE64AD00CFA6DD /* Assets.xcassets */; };
 		E3A5A0741EBE64AD00CFA6DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3A5A0721EBE64AD00CFA6DD /* LaunchScreen.storyboard */; };
 		E3A5A07F1EBE64AD00CFA6DD /* GoodJobKidTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A5A07E1EBE64AD00CFA6DD /* GoodJobKidTests.swift */; };
 		E3A5A08A1EBE64AD00CFA6DD /* GoodJobKidUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A5A0891EBE64AD00CFA6DD /* GoodJobKidUITests.swift */; };
+		E3A5A0981EC414F900CFA6DD /* Child.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A5A0971EC414F900CFA6DD /* Child.swift */; };
+		E3A5A0991EC414F900CFA6DD /* Child.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A5A0971EC414F900CFA6DD /* Child.swift */; };
+		E3A5A09B1EC5520D00CFA6DD /* ChildrenService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A5A09A1EC5520D00CFA6DD /* ChildrenService.swift */; };
+		E3A5A09C1EC5520D00CFA6DD /* ChildrenService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A5A09A1EC5520D00CFA6DD /* ChildrenService.swift */; };
+		E3FA40981ECD4F97006B409D /* ChildrenViewControllerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3FA40971ECD4F97006B409D /* ChildrenViewControllerTableViewController.swift */; };
+		E3FA409A1ECD5013006B409D /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3FA40991ECD5013006B409D /* SampleData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +42,6 @@
 /* Begin PBXFileReference section */
 		E3A5A0631EBE64AD00CFA6DD /* GoodJobKid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoodJobKid.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3A5A0661EBE64AD00CFA6DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E3A5A0681EBE64AD00CFA6DD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E3A5A06B1EBE64AD00CFA6DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E3A5A06E1EBE64AD00CFA6DD /* GoodJobKid.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GoodJobKid.xcdatamodel; sourceTree = "<group>"; };
 		E3A5A0701EBE64AD00CFA6DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +53,10 @@
 		E3A5A0851EBE64AD00CFA6DD /* GoodJobKidUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoodJobKidUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3A5A0891EBE64AD00CFA6DD /* GoodJobKidUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodJobKidUITests.swift; sourceTree = "<group>"; };
 		E3A5A08B1EBE64AD00CFA6DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3A5A0971EC414F900CFA6DD /* Child.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Child.swift; sourceTree = "<group>"; };
+		E3A5A09A1EC5520D00CFA6DD /* ChildrenService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChildrenService.swift; sourceTree = "<group>"; };
+		E3FA40971ECD4F97006B409D /* ChildrenViewControllerTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChildrenViewControllerTableViewController.swift; sourceTree = "<group>"; };
+		E3FA40991ECD5013006B409D /* SampleData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,12 +108,15 @@
 			isa = PBXGroup;
 			children = (
 				E3A5A0661EBE64AD00CFA6DD /* AppDelegate.swift */,
-				E3A5A0681EBE64AD00CFA6DD /* ViewController.swift */,
+				E3A5A0971EC414F900CFA6DD /* Child.swift */,
 				E3A5A06A1EBE64AD00CFA6DD /* Main.storyboard */,
+				E3FA40991ECD5013006B409D /* SampleData.swift */,
+				E3A5A09A1EC5520D00CFA6DD /* ChildrenService.swift */,
 				E3A5A0701EBE64AD00CFA6DD /* Assets.xcassets */,
 				E3A5A0721EBE64AD00CFA6DD /* LaunchScreen.storyboard */,
 				E3A5A0751EBE64AD00CFA6DD /* Info.plist */,
 				E3A5A06D1EBE64AD00CFA6DD /* GoodJobKid.xcdatamodeld */,
+				E3FA40971ECD4F97006B409D /* ChildrenViewControllerTableViewController.swift */,
 			);
 			path = GoodJobKid;
 			sourceTree = "<group>";
@@ -263,7 +274,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E3A5A06F1EBE64AD00CFA6DD /* GoodJobKid.xcdatamodeld in Sources */,
-				E3A5A0691EBE64AD00CFA6DD /* ViewController.swift in Sources */,
+				E3FA409A1ECD5013006B409D /* SampleData.swift in Sources */,
+				E3A5A09B1EC5520D00CFA6DD /* ChildrenService.swift in Sources */,
+				E3A5A0981EC414F900CFA6DD /* Child.swift in Sources */,
+				E3FA40981ECD4F97006B409D /* ChildrenViewControllerTableViewController.swift in Sources */,
 				E3A5A0671EBE64AD00CFA6DD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,6 +286,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3A5A09C1EC5520D00CFA6DD /* ChildrenService.swift in Sources */,
+				E3A5A0991EC414F900CFA6DD /* Child.swift in Sources */,
 				E3A5A07F1EBE64AD00CFA6DD /* GoodJobKidTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -511,6 +527,7 @@
 				E3A5A0901EBE64AD00CFA6DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E3A5A0911EBE64AD00CFA6DD /* Build configuration list for PBXNativeTarget "GoodJobKidTests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +536,7 @@
 				E3A5A0931EBE64AD00CFA6DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E3A5A0941EBE64AD00CFA6DD /* Build configuration list for PBXNativeTarget "GoodJobKidUITests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +545,7 @@
 				E3A5A0961EBE64AD00CFA6DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
